@@ -4,6 +4,7 @@ import FeaturedProducts from './Components/FeaturedProd/Featured'
 
 import { Footer } from './Components/Footer/Footer'
 import { Header } from './Components/Header'
+import TopProducts from './Components/Top-Products/TopProducts'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       <Header/>
     <Carousel/>   
     <FeaturedProducts/>
+    <TopProducts/>
       <Footer/>
     </>
   )

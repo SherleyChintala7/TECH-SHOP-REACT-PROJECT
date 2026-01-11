@@ -138,10 +138,10 @@ const productsData = [
         tagline: "Give your favourite music a boost.",
         heroImage: "/images/products/sonyXb910n-1.png",
         images: [
-            "/images/products/sonyxb910n-1.png",
-            "/images/products/sonyxb910n-2.png",
-            "/images/products/sonyxb910n-3.png",
-            "/images/products/sonyxb910n-4.png",
+            "/images/products/sonyXb910n-1.png",
+            "/images/products/sonyXb910n-2.png",
+            "/images/products/sonyXb910n-3.png",
+            "/images/products/sonyXb910n-4.png",
         ],
         brand: "Sony",
         title: "Sony WH-XB910N",
@@ -224,10 +224,10 @@ const productsData = [
     {
         id: 11,
         images: [
-            "/images/products/sony1000xm4-1.png",
-            "/images/products/sony1000xm4-2.png",
-            "/images/products/sony1000xm4-3.png",
-            "/images/products/sony1000xm4-4.png"
+            "/images/products/Sony1000XM4-1.png",
+            "/images/products/Sony1000XM4-2.png",
+            "/images/products/Sony1000XM4-3.png",
+            "/images/products/Sony1000XM4-4.png"
         ],
         brand: "Sony",
         title: "Sony WF-1000XM4",
@@ -373,10 +373,10 @@ const productsData = [
     {
         id: 18,
         images: [
-            "/images/products/sony-ex14ap-1.png",
-            "/images/products/sony-ex14ap-2.png",
-            "/images/products/sony-ex14ap-3.png",
-            "/images/products/sony-ex14ap-4.png"
+            "/images/products/sony-eX14ap-1.png",
+            "/images/products/sony-eX14ap-2.png",
+            "/images/products/sony-eX14ap-3.png",
+            "/images/products/sony-eX14ap-4.png"
         ],
         brand: "Sony",
         title: "Sony MDR-EX14AP",
@@ -394,10 +394,10 @@ const productsData = [
     {
         id: 19,
         images: [
-            "/images/products/sonyxb400-1.png",
-            "/images/products/sonyxb400-2.png",
-            "/images/products/sonyxb400-3.png",
-            "/images/products/sonyxb400-4.png",
+            "/images/products/sonyXb400-1.png",
+            "/images/products/sonyXb400-2.png",
+            "/images/products/sonyXb400-3.png",
+            "/images/products/sonyXb400-4.png",
         ],
         brand: "Sony",
         title: "Sony WI-XB400",
