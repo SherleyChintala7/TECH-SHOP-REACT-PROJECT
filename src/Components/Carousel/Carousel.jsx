@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import productsData from "../Data/productsData";
+import productsData from "../../Data/productsData";
 import "./Carousel.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
