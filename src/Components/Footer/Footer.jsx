@@ -1,50 +1,46 @@
-import { footMenu } from "./FooterData"
-import { footSocial } from "./FooterData"
+import "./Footer.css";
+import { footMenu, footSocial } from "./footerData";
+
 export const Footer = () => {
+  return (
+    <footer className="footer">
+      {/* Top Section */}
+      <div className="footer-top">
+        {/* Brand + Subscribe */}
+        <div className="footer-brand">
+          <h2>Tech-Shop</h2>
+          <p>
+            Subscribe to our Email alerts to receive
+            early discount offers, and new products info.
+          </p>
 
+          <input type="email" placeholder="Email Address*" />
+          <button>Subscribe</button>
+        </div>
 
-    return (
-        <>
-            <div className="footer">
-                    <div className="subscribe">
-                        <h1>Tech-Shop</h1>
-                        <p>Subscribe to our Email alerts to receive <br />
-                            early discount offers, and new products <br />
-                            info.</p>
-                        <input type="email" placeholder="Email Address" /><br />
-                        <button className="btn">Subscribe</button>
-                    </div>
-                    {
-                        footMenu.map(item => (
-                            <div key={item.id} className="about">
-                                <h3>{item.title}</h3>
-                                <ul>
-                                    {
-                                        item.menu.map(subitem => (
-                                                <li key={subitem.id}>{subitem.link}</li>
-                                        ))
-                                    }
-                                </ul>
-                            </div>
-                        ))
-                    }
-            </div>
-            <hr />
-            <div className="desc">
-                <div>
-                    <p>2025|All Rights Reserved ©.</p>
-                </div>
-                <div className="icons">
-                {
-                    footSocial.map(item=>(
-                       <div key={item.id}>
-                        <i>{item.icon}</i>
-                        </div>
-                    ))
-                }
-                </div>
-            </div>
+        {/* Dynamic Footer Menus */}
+        {footMenu.map((section) => (
+          <div className="footer-links" key={section.id}>
+            <h3>{section.title}</h3>
+            <ul>
+              {section.menu.map((item) => (
+                <li key={item.id}>{item.link}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
 
-        </>
-    )
-}
+      {/* Bottom Section */}
+      <div className="footer-bottom">
+        <p>2025 | All Rights Reserved ©.</p>
+
+        <div className="social-icons">
+          {footSocial.map((social) => (
+            <span key={social.id}>{social.icon}</span>
+          ))}
+        </div>
+      </div>
+    </footer>
+  );
+};

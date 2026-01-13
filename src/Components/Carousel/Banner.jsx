@@ -1,10 +1,19 @@
+// Components/Carousel/Banner.jsx
+
 import Slider from "react-slick";
-import productsData from "../../Data/productsData";
-import "./Carousel.css";
+import productsData from "../Products/productsData";
+import "./Banner.css";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { useNavigate } from "react-router-dom";
+
+
 const Banner = () => {
+
+  const navigate = useNavigate();
+
   const heroProducts = productsData.filter(
     (product) => product.tag === "hero-product"
   );
@@ -42,7 +51,7 @@ const Banner = () => {
                 <span>₹{item.originalPrice.toLocaleString()}</span>
               </p>
 
-              <button>Shop Now</button>
+              <button  onClick={() => navigate(`/product/${item.id}`)}>Shop Now</button>
             </div>
 
             {/* RIGHT */}
@@ -59,3 +68,7 @@ const Banner = () => {
 };
 
 export default Banner;
+
+
+
+

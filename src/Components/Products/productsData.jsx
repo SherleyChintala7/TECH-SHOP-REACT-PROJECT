@@ -224,10 +224,10 @@ const productsData = [
     {
         id: 11,
         images: [
-            "/images/products/Sony1000XM4-1.png",
-            "/images/products/Sony1000XM4-2.png",
-            "/images/products/Sony1000XM4-3.png",
-            "/images/products/Sony1000XM4-4.png"
+            "/images/products/sony1000xm4-1.png",
+            "/images/products/sony1000xm4-2.png",
+            "/images/products/sony1000xm4-3.png",
+            "/images/products/sony1000xm4-4.png"
         ],
         brand: "Sony",
         title: "Sony WF-1000XM4",
@@ -310,10 +310,10 @@ const productsData = [
     {
         id: 15,
         images: [
-            "/images/products/sonych710n-1.png",
-            "/images/products/sonych710n-2.png",
-            "/images/products/sonych710n-3.png",
-            "/images/products/sonych710n-4.png",
+            "/images/products/sonyCh710n-1.png",
+            "/images/products/sonyCh710n-2.png",
+            "/images/products/sonyCh710n-3.png",
+            "/images/products/sonyCh710n-4.png",
         ],
         brand: "Sony",
         title: "Sony WH-CH710N",
@@ -373,10 +373,10 @@ const productsData = [
     {
         id: 18,
         images: [
-            "/images/products/sony-eX14ap-1.png",
-            "/images/products/sony-eX14ap-2.png",
-            "/images/products/sony-eX14ap-3.png",
-            "/images/products/sony-eX14ap-4.png"
+            "/images/products/sony-ex14ap-1.png",
+            "/images/products/sony-ex14ap-2.png",
+            "/images/products/sony-ex14ap-3.png",
+            "/images/products/sony-ex14ap-4.png"
         ],
         brand: "Sony",
         title: "Sony MDR-EX14AP",

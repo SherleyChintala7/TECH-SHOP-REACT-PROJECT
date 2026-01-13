@@ -1,13 +1,13 @@
-body{
+ /* body{
   background-color: black;
 }
-.header {
+ .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: black;
   color: #d6deea;
-}
+} 
 .subscribe .btn{
   background-color: orangered;
   margin-top: 8px;
@@ -66,4 +66,4 @@ hr {
   display: flex;
   gap: 20px;
   padding-right: 20px;
-}
+}  */
